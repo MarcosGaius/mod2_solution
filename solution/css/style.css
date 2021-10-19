@@ -15,7 +15,7 @@ body {
 
 #title {
   text-align: center;
-  font-size: 28px;
+  font-size: 24.5px;
   margin-bottom: 30px;
 }
 
@@ -35,6 +35,8 @@ body {
   float: right;
   text-align: center;
   padding: 5px;
+  font-size: 17.5px;
+
 }
 
 #box-title-1 {
