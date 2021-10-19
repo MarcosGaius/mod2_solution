@@ -1,7 +1,4 @@
-@font-face {
-  font-family: 'Montserrat', sans-serif;  
-  src: url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap%27");
 
 * {
   box-sizing: border-box;
@@ -10,7 +7,7 @@
 body {
   height: 100%;
   margin: 40px;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #title {
