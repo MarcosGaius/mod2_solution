@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'Montserrat', sans-serif;  
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  margin: 40px;
+  font-family: Montserrat;
+}
+
+#title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.box {
+  border: solid thin black;
+  height: 280px;
+  overflow: auto;
+  background: azure;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.box-title {
+  border-left: solid thin black;
+  border-bottom: solid thin black;
+  width: 80px;
+  float: right;
+  text-align: center;
+  padding: 5px;
+}
+
+#box-title-1 {
+  background: rgb(30, 184, 255);
+}
+
+#box-title-2 {
+  background: rgb(59, 126, 250);
+}
+
+#box-title-3 {
+  background: rgb(34, 73, 182);
+}
+
+p {
+  padding: 20px;
+  text-align: left;
+}
+
+.row {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 992px) {
+  .col-dk-4 {
+    float: left;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+  }
+
+  .col-dk-4 {
+    width: 32.33%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-tb-6, .col-tb-12 {
+    float: left;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+  }
+  
+  .col-tb-6 {
+    width: 49%;
+  }
+
+  .col-tb-12 {
+    width: 99%;
+  }
+
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .col-sp-12 {
+    float: left;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+  }
+
+  .col-sp-12 {
+    width: 99%;
+  }
+}
